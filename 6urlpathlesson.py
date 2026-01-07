@@ -2,7 +2,7 @@
 language_code = "es"
 
 # Subjects can be math, science, computing, or humanities.
-subject = "computing"
+subject = (input("Enter subject name: "))
 
 url = "https://" + language_code + ".khanacademy.org/" + subject
 
