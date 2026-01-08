@@ -25,3 +25,36 @@ data4 = "mawar"
 print(bool(data4))
 print(type(bool(data4)))
 
+#abs(x) -> mengubah x menjadi nilai abso
+data5 = -15
+print(abs(data5))
+print(type(abs(data5)))
+
+#round(x) -> mengubah x menjadi pembulatan terdekat
+data6 = 9.69
+print(round(data6))
+print(type(round(data6)))
+
+#round(x, y) -> mengubah x menjadi pembulatan dengan y angka dibelakang koma
+data7 = 9.666666
+print(round(data7, 1))
+print(round(data7, 3))
+print(type(round(data7, 1)))
+print(type(round(data7, 3)))
+
+#len(x) -> mengubah x menjadi panjang dari x
+data8 = "abcdefghij"
+print(len(data8))
+print(type(len(data8)))
+
+#min(x, y) -> mengembalikan nilai terkecil dari x dan y
+data9a = 15
+data9b = 20
+print(min(data9a, data9b))
+print(type(min(data9a, data9b)))
+
+#max(x, y) -> mengembalikan nilai terbesar dari x dan y
+data10a = 15
+data10b = 20
+print(max(data10a, data10b))
+print(type(max(data10a, data10b)))
