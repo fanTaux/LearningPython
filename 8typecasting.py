@@ -59,4 +59,3 @@ data10b = 20
 print(max(data10a, data10b))
 print(type(max(data10a, data10b)))
 
-#just to keep the streak running
